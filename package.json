@@ -1,0 +1,19 @@
+{
+  "name": "template-browser-ts",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build:watch": "webpack --mode development -d source-map --progress --watch",
+    "build:dev": "webpack --mode development -d source-map --progress",
+    "build:prod": "webpack --mode production --progress"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
